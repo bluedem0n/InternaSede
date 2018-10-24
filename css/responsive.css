@@ -7,95 +7,109 @@
         }
         
         @media (max-width: 768px) {
-            .sectionSedes .sede {
-                width: 60%;
-                margin: 0 auto;
-                margin-bottom: 2em;
-            }
-            .contenedorSedes {
-                height: auto;
-            }
-            .hero {
-                background: url(../img/backgroundLimaTablet.png) center no-repeat;
-                background-size: cover;
-                min-height: 50vh;
-            }
-            .titleSede {
-                margin: 0 auto;
-            }
-            .sectionCards {
-                text-align: center;
-            }
-            .contenedorHero {
+            .contenedorVideo {
                 display: none;
             }
-            .heroSectionText {
-                display: block;
-                height: 35vh;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
+            .contSede {
+                display: none;
+            }
+            .card.alt .toggle {
+                display: none;
+            }
+            .whyZegel h1 {
+                height: 100px;
                 display: flex;
+                align-items: center;
             }
-            .heroTittle h2 {
-                width: 100%;
+            .contSedeMobile {
+                height: 200px;
+                display: flex;
+                background-color: #FFF;
             }
-            .heroDescription {
-                width: 100%;
-            }
-            .heroTittle {
-                height: auto;
-            }
-            .heroDescription p {
-                width: 75%;
-                margin-top: 1em;
+            .hero {
+                min-height: 300px;
             }
         }
         
         @media (max-width:600px) {
-            .sectionSedes .sede {
-                width: 80%;
+            .contSedeMobile {
+                height: 250px;
+                align-items: center;
+                padding-bottom: 2em;
+            }
+            .addressSede {
+                height: auto;
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            .titleInternaSede {
+                height: 140px;
+            }
+            .addressSede p {
+                font-size: 21px;
+                text-align: left;
+            }
+            .titleInternaSede h2 {
+                font-size: 30px;
+            }
+            .titleInternaSede h1 {
+                font-size: 40px;
+            }
+            .caption-dudas-responsive {
+                display: block;
             }
         }
         
         @media (max-width: 500px) {
-            .yearsText {
-                font-size: 14px;
-            }
-            .heroTittle h1 {
-                font-size: 30px;
-            }
-            .heroTittle h2 {
-                font-size: 20px;
-            }
-            .heroDescription p {
-                font-size: 14px;
-            }
-            .textoSedes h2 {
-                color: #000;
-                font-family: "Gilroy-Bold";
-                font-size: 25px;
-            }
-            .heroDescription p {
-                width: 90%;
-            }
-            .bordeHorizontal {
-                margin: 0 10px;
+            .menu {
+                height: 120px;
             }
             .logo {
-                width: 60%;
+                width: 40%;
             }
-            .yearsText {
-                font-size: 10px;
+            .productoCarreras {
+                height: 480px;
             }
-            .buttonSede {
-                font-size: 15px;
+            .contSedeMobile {
+                height: 300px;
             }
-            .hero {
-                min-height: 35vh;
+            .contenedorFormulario {
+                max-width: 100%;
             }
-            .heroSectionText {
-                height: 290px;
+            .whyZegel {
+                width: 100%;
+                height: 400px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+            }
+            .card:first-child {
+                display: none;
+            }
+            .card .input-container {
+                position: relative;
+                margin: 0 30px 20px;
+            }
+            .card .title {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding: 0;
+                justify-content: center;
+            }
+            .card .button-container {
+                margin: 0;
+            }
+            .checkbox {
+                margin: 0 30px 20px;
+            }
+            .card {
+                padding: 40px 0 40px 0;
+            }
+            .whyZegel h1 {
+                font-size: 30px;
             }
         }
         
@@ -109,10 +123,29 @@
             .logo img {
                 max-width: 45%;
             }
-            .sectionSedes .sede {
-                width: 100%;
+            .productoCarreras {
+                height: 560px;
+            }
+            .productoEjecutiva {
+                height: 350px;
+            }
+            .productoCGT {
+                height: 280px;
+            }
+            .whyZegel p {
+                font-size: 15px;
+            }
+            .carreras h1 {
+                font-size: 24px;
+            }
+            .listaProductos ul li {
+                font-size: 14px;
             }
         }
+        
+        @media (max-width: 500px) {}
+        
+        @media (max-width: 360px) {}
         
         @media screen and (min-width: 320px) and (max-width: 568px) {}
         
@@ -122,11 +155,7 @@
         
         @media (max-width: 1199px) {}
         
-        @media screen and (min-width: 768px) and (max-width: 1024px) {
-            .sectionSedes .sede {
-                width: 100%;
-            }
-        }
+        @media screen and (min-width: 768px) and (max-width: 1024px) {}
         
         @media (max-width:767px) {}
         
@@ -136,17 +165,17 @@
         
         @media screen and (max-width: 400px) {}
         
-        @media only screen and (min-width:1024px) and (min-height: 1366px) {
+        @media only screen and (min-width:1366px) and (min-height: 768px) {
+            /* HERO */
             .hero {
-                background: url(img/backgroundLimaTablet.png) center no-repeat;
-                background-size: cover;
-                min-height: 100vh;
+                height: 600px;
             }
-            .heroTittle {
-                height: 300px;
-            }
-            .heroDescription {
-                width: 100%;
+        }
+        
+        @media only screen and (min-width:1024px) and (min-height: 1366px) {
+            /* HERO */
+            .card.alt .toggle {
+                display: none;
             }
         }
         
