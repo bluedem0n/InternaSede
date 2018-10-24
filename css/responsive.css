@@ -64,7 +64,7 @@
         
         @media (max-width: 500px) {
             .menu {
-                height: 100px;
+                height: 100px !important;
             }
             .logo {
                 width: 40%;
@@ -114,15 +114,20 @@
             .whyZegel h1 {
                 font-size: 30px;
             }
-            .years {
-               display: none;
+            .yearsText {
+                font-size: 12px;
             }
+            .contenedorMenu{
+                height: 100px;
+            }
+            .years{
+                width: 60%;
+            }
+           
         }
         
         @media (max-width: 360px) {
-            .years {
-                display: none !important;
-            }
+            
             .menu {
                 height: 50px;
             }
