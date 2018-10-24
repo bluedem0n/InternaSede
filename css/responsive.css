@@ -64,13 +64,16 @@
         
         @media (max-width: 500px) {
             .menu {
-                height: 120px;
+                height: 100px;
             }
             .logo {
                 width: 40%;
             }
             .productoCarreras {
-                height: 480px;
+                height: 500px;
+            }
+            .productoEjecutiva {
+                height: 350px;
             }
             .contSedeMobile {
                 height: 300px;
@@ -110,6 +113,9 @@
             }
             .whyZegel h1 {
                 font-size: 30px;
+            }
+            .years {
+               display: none;
             }
         }
         
