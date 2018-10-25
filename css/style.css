@@ -129,6 +129,12 @@ p, h1, h2, h3, h4, h5, h6, body {
 	min-height: 550px;
 }
 
+.bgLimaSur {
+	background: url('../img/bgLimaSur.png') center no-repeat;
+	background-size: cover;
+	min-height: 550px;
+}
+
 .caption-dudas-responsive {
 	display: none;
 }
@@ -281,9 +287,14 @@ p, h1, h2, h3, h4, h5, h6, body {
 }
 
 .productoCarreras {
-	height: 430px;
+	height: 450px;
 }
-
+.carrerasEmpty{
+	height: 210px !important;
+}
+.carrerasMedium{
+	height: 320px !important;
+}
 .productoCGT {
 	height: 250px;
 }
