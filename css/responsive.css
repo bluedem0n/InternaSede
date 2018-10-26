@@ -1,157 +1,155 @@
         /* RESPONSIVE */
         
         @media (max-width: 991px) {
-            .titleSede p {
-                font-size: 15px;
-            }
+        	.titleSede p {
+        		font-size: 15px;
+        	}
         }
         
         @media (max-width: 768px) {
-            .contenedorVideo {
-                display: none;
-            }
-            .contSede {
-                display: none;
-            }
-            .card.alt .toggle {
-                display: none;
-            }
-            .whyZegel h1 {
-                height: 100px;
-                display: flex;
-                align-items: center;
-            }
-            .contSedeMobile {
-                height: 200px;
-                display: flex;
-                background-color: #FFF;
-            }
-            .hero {
-                min-height: 300px;
-            }
+        	.contenedorVideo {
+        		display: none;
+        	}
+        	.contSede {
+        		display: none;
+        	}
+        	.card.alt .toggle {
+        		display: none;
+        	}
+        	.whyZegel h1 {
+        		height: 100px;
+        		display: flex;
+        		align-items: center;
+        	}
+        	.contSedeMobile {
+        		height: 200px;
+        		display: flex;
+        		background-color: #FFF;
+        	}
+        	.hero {
+        		min-height: 300px;
+        	}
         }
         
         @media (max-width:600px) {
-            .contSedeMobile {
-                height: 250px;
-                align-items: center;
-                padding-bottom: 2em;
-            }
-            .addressSede {
-                height: auto;
-                width: 100%;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-            }
-            .titleInternaSede {
-                height: 140px;
-            }
-            .addressSede p {
-                font-size: 21px;
-                text-align: left;
-            }
-            .titleInternaSede h2 {
-                font-size: 30px;
-            }
-            .titleInternaSede h1 {
-                font-size: 40px;
-            }
-            .caption-dudas-responsive {
-                display: block;
-            }
+        	.contSedeMobile {
+        		height: 250px;
+        		align-items: center;
+        		padding-bottom: 2em;
+        	}
+        	.addressSede {
+        		height: auto;
+        		width: 100%;
+        		display: flex;
+        		justify-content: flex-start;
+        		align-items: center;
+        	}
+        	.titleInternaSede {
+        		height: 140px;
+        	}
+        	.addressSede p {
+        		font-size: 21px;
+        		text-align: left;
+        	}
+        	.titleInternaSede h2 {
+        		font-size: 30px;
+        	}
+        	.titleInternaSede h1 {
+        		font-size: 40px;
+        	}
+        	.caption-dudas-responsive {
+        		display: block;
+        	}
         }
         
         @media (max-width: 500px) {
-            .menu {
-                height: 100px !important;
-            }
-            .logo {
-                width: 40%;
-            }
-            .productoCarreras {
-                height: 520px;
-            }
-            .productoEjecutiva {
-                height: 350px;
-            }
-            .contSedeMobile {
-                height: 300px;
-            }
-            .contenedorFormulario {
-                max-width: 100%;
-            }
-            .whyZegel {
-                width: 100%;
-                height: 400px;
-                justify-content: center;
-                display: flex;
-                flex-direction: column;
-            }
-            .card:first-child {
-                display: none;
-            }
-            .card .input-container {
-                position: relative;
-                margin: 0 30px 20px;
-            }
-            .card .title {
-                width: 100%;
-                display: flex;
-                align-items: center;
-                padding: 0;
-                justify-content: center;
-            }
-            .card .button-container {
-                margin: 0;
-            }
-            .checkbox {
-                margin: 0 30px 20px;
-            }
-            .card {
-                padding: 40px 0 40px 0;
-            }
-            .whyZegel h1 {
-                font-size: 30px;
-            }
-            .yearsText {
-                font-size: 12px;
-            }
-            .contenedorMenu{
-                height: 100px;
-            }
-            .years{
-                width: 60%;
-            }
-           
+        	.menu {
+        		height: 100px !important;
+        	}
+        	.logo {
+        		width: 40%;
+        	}
+        	.productoCarreras {
+        		height: 520px;
+        	}
+        	.productoEjecutiva {
+        		height: 350px;
+        	}
+        	.contSedeMobile {
+        		height: 300px;
+        	}
+        	.contenedorFormulario {
+        		max-width: 100%;
+        	}
+        	.whyZegel {
+        		width: 100%;
+        		height: 400px;
+        		justify-content: center;
+        		display: flex;
+        		flex-direction: column;
+        	}
+        	.card:first-child {
+        		display: none;
+        	}
+        	.card .input-container {
+        		position: relative;
+        		margin: 0 30px 20px;
+        	}
+        	.card .title {
+        		width: 100%;
+        		display: flex;
+        		align-items: center;
+        		padding: 0;
+        		justify-content: center;
+        	}
+        	.card .button-container {
+        		margin: 0;
+        	}
+        	.checkbox {
+        		margin: 0 30px 20px;
+        	}
+        	.card {
+        		padding: 40px 0 40px 0;
+        	}
+        	.whyZegel h1 {
+        		font-size: 30px;
+        	}
+        	.yearsText {
+        		font-size: 12px;
+        	}
+        	.contenedorMenu {
+        		height: 100px;
+        	}
+        	.years {
+        		width: 60%;
+        	}
         }
         
         @media (max-width: 360px) {
-            
-            .menu {
-                height: 50px;
-            }
-            .logo img {
-                max-width: 45%;
-            }
-            .productoCarreras {
-                height: 560px;
-            }
-            .productoEjecutiva {
-                height: 350px;
-            }
-            .productoCGT {
-                height: 280px;
-            }
-            .whyZegel p {
-                font-size: 15px;
-            }
-            .carreras h1 {
-                font-size: 24px;
-            }
-            .listaProductos ul li {
-                font-size: 14px;
-            }
+        	.menu {
+        		height: 50px;
+        	}
+        	.logo img {
+        		max-width: 45%;
+        	}
+        	.productoCarreras {
+        		height: 560px;
+        	}
+        	.productoEjecutiva {
+        		height: 350px;
+        	}
+        	.productoCGT {
+        		height: 280px;
+        	}
+        	.whyZegel p {
+        		font-size: 15px;
+        	}
+        	.carreras h1 {
+        		font-size: 24px;
+        	}
+        	.listaProductos ul li {
+        		font-size: 14px;
+        	}
         }
         
         @media (max-width: 500px) {}
@@ -177,17 +175,19 @@
         @media screen and (max-width: 400px) {}
         
         @media only screen and (min-width:1366px) and (min-height: 768px) {
-            /* HERO */
-            .hero {
-                height: 600px;
-            }
+        	/* HERO */
+        	.hero {
+        		height: 600px;
+        		background-size: cover;
+        		min-height: 550px;
+        	}
         }
         
         @media only screen and (min-width:1024px) and (min-height: 1366px) {
-            /* HERO */
-            .card.alt .toggle {
-                display: none;
-            }
+        	/* HERO */
+        	.card.alt .toggle {
+        		display: none;
+        	}
         }
         
         @media only screen and (min-width:1400px) and (min-height: 900px) {}

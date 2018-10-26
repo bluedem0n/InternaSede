@@ -16,13 +16,17 @@
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T62JK9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<!-- Start Menu -->
 	<header>
 		<div class="menu">
 			<div class="container contenedorMenu">
 				<div class="logo">
-					<img src="img/logoZegel.png" alt="ZegelIpae">
-				</div>
+					<img src="img/logoZegel.png" alt="ZegelIpae"> </div>
 				<div class="years">
 					<img src="img/50.png" alt="">
 					<div class="bordeHorizontal"></div>
@@ -32,47 +36,45 @@
 			</div>
 		</div>
 		</div>
-	</header>
-	<div class="caption-dudas-responsive">
-		<a href="#contacto">
-			<img src="img/register.png" alt="">
-			<p>Inscríbete ahora</p>
-		</a>
-	</div>
-	<!-- End Menu  -->
-	<!-- Start Hero -->
-	<div class="hero bgLimaSur">
-		<div class="contSede">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-12">
-						<div class="titleInternaSede">
-							<h2>SEDE</h2>
-							<h1>LIMA SUR</h1>
+		<div class="caption-dudas-responsive">
+			<a href="#contacto">
+				<img src="img/register.png" alt="">
+				<p>Inscríbete ahora</p>
+			</a>
+		</div>
+		<!-- End Menu  -->
+		<!-- Start Hero -->
+		<div class="hero bgLimaSur">
+			<div class="contSede">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-12">
+							<div class="titleInternaSede">
+								<h2>SEDE</h2>
+								<h1>LIMA SUR</h1>
+							</div>
 						</div>
-					</div>
-					<div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-12">
-						<div class="addressSede">
-							<p>Av. de los Ingenieros
-								<br> N° 845 - Surco
-								<br> Teléfono: 417 5700
-								<br>
-
-							</p>
+						<div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-12">
+							<div class="addressSede">
+								<p>Av. de los Ingenieros
+									<br> N° 845 - Surco
+									<br> Teléfono: 417 5700
+									<br> </p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
+	</header>
+	<!-- End Hero -->
 	<div class="contSedeMobile">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-12">
 					<div class="titleInternaSede">
-						<h2>SEDE</h2>
-						<h1>LIMA SUR</h1>
+						<h2>LIMA</h2>
+						<h1>SUR</h1>
 					</div>
 				</div>
 				<div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-12">
@@ -80,9 +82,7 @@
 						<p>Av. de los Ingenieros
 							<br> N° 845 - Surco
 							<br> Teléfono: 417 5700
-							<br>
-
-						</p>
+							<br> </p>
 					</div>
 				</div>
 			</div>
@@ -98,7 +98,8 @@
 						<source src="">
 						<source src="">
 					</video> -->
-					<iframe width="830" height="500" src="https://www.youtube.com/embed/1rRR3CDwNIE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe width="830" height="500" src="https://www.youtube.com/embed/1rRR3CDwNIE" frameborder="0" allow="autoplay; encrypted-media"
+					 allowfullscreen></iframe>
 				</section>
 			</div>
 		</div>
@@ -125,7 +126,7 @@
 									<li>Administración de Negocios</li>
 									<li>Administración de Empresas</li>
 									<li>Administración de Negocios Internacionales</li>
-									<li>Administración de Negocios Bancarios y Financieros</li>
+									<li>Administración Bancaria</li>
 									<li>Gestión Logística</li>
 									<li>Marketing</li>
 									<li>Contabilidad</li>
@@ -160,59 +161,92 @@
 								</ul>
 							</div>
 						</div>
-
 					</div>
 				</div>
-
 				<div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 cont-fix">
-					<div id="contacto" class="contenedorFormulario">
-						<div class="card"></div>
-						<div class="card">
-							<div class="card alt">
-								<div class="toggle"></div>
+					<form method="POST" action="dejanos-tus-datos" accept-charset="UTF-8" name="formulario-dejanos-tus-datos">
+						<input name="_token" type="hidden" value="3xKzQ5Qy7dpG9AWiVSEZs0cEgUEevhcXH9zS64oN">
+						<div id="contacto" class="contenedorFormulario">
+							<div class="card"></div>
+							<div class="card">
+								<div class="card alt">
+									<div class="toggle"></div>
+								</div>
+								<h1 class="title">¡Comienza aquí!</h1>
+								<form>
+									<div class="input-container">
+										<input type="text" name="numdoc" maxlength="8" id="#{label}" required="required" />
+										<label for="#{label}">DNI</label>
+										<div class="bar"></div>
+									</div>
+									<div class="input-container">
+										<input type="text" name="nombres" maxlength="50" id="#{label}" required="required" />
+										<label for="#{label}">Nombres</label>
+										<div class="bar"></div>
+									</div>
+									<div class="input-container">
+										<input type="text" name="apellidos" maxlength="50" id="#{label}" required="required" />
+										<label for="#{label}">Apellidos</label>
+										<div class="bar"></div>
+									</div>
+									<div class="input-container">
+										<input type="text" name="email" maxlength="50" id="#{label}" required="required" />
+										<label for="#{label}">Email</label>
+										<div class="bar"></div>
+									</div>
+									<div class="input-container">
+										<input type="text" name="cel" maxlength="9" required="required" />
+										<label for="#{label}">Celular</label>
+										<div class="bar"></div>
+									</div>
+									<div style="display:none">
+										<div>
+											<select class="form-control" name="sede">
+												<option value="7">Surco</option>
+												<option value="1">pueblo libre</option>
+												<option value="6">chiclayo</option>
+												<option value="5">piura</option>
+												<option value="3">ica</option>
+												<option value="4">iquitos</option>
+												<option value="25">san juan de lurigancho</option>
+												<option value="20">Trujillo</option>
+												<option value="27">Puruchuco</option>
+												<option value="28">Lima Norte</option>
+												<option value="29">Lima Centro</option>
+											</select>
+										</div>
+										<i class="valid"></i>
+									</div>
+									<div class="input-container">
+										<select name="producto" class="form-control" required="required">
+											<option value="10557">Selecciona una carrera</option>
+											<option value="10557">Administración de Negocios</option>
+											<option value="12583">Administración de Empresas</option>
+											<option value="12585">Administración de Negocios Internacionales</option>
+											<option value="12543">Administración Bancaria</option>
+											<option value="12587">Gestión Logística</option>
+											<option value="12589">Contabilidad</option>
+											<option value="12586">Marketing</option>
+											<option value="12544">Gestión de Recursos Humanos</option>
+										</select>
+									</div>
+									<div class="checkbox">
+										<input type="checkbox" id="check-terminos" name="acepto" value="1" checked>
+										<label class="terms" for="acepto">
+											<span></span>Acepto haber leído las
+											<a href="http://zegelipae.edu.pe/politicas-de-privacidad" target="_blank">políticas de privacidad</a>
+										</label>
+									</div>
+									<div class="button-container">
+										<input type="hidden" name="source" value="">
+										<button id="submit" class="button btn-enviar" data-loading-text="Enviando...">
+											<span>Enviar</span>
+										</button>
+									</div>
+								</form>
 							</div>
-							<h1 class="title">¡Comienza aquí!</h1>
-							<form>
-								<div class="input-container">
-									<input type="#{type}" id="#{label}" required="required" />
-									<label for="#{label}">DNI</label>
-									<div class="bar"></div>
-								</div>
-								<div class="input-container">
-									<input type="#{type}" id="#{label}" required="required" />
-									<label for="#{label}">Nombres</label>
-									<div class="bar"></div>
-								</div>
-								<div class="input-container">
-									<input type="#{type}" id="#{label}" required="required" />
-									<label for="#{label}">Apellidos</label>
-									<div class="bar"></div>
-								</div>
-								<div class="input-container">
-									<input type="#{type}" id="#{label}" required="required" />
-									<label for="#{label}">Email</label>
-									<div class="bar"></div>
-								</div>
-								<div class="input-container">
-									<input type="#{type}" id="#{label}" required="required" />
-									<label for="#{label}">Celular</label>
-									<div class="bar"></div>
-								</div>
-								<div class="checkbox">
-									<input type="checkbox" id="acepto" name="acepto" checked>
-									<label class="terms" for="acepto">
-										<span></span>Acepto haber leído las políticas de privacidad</label>
-								</div>
-								<div class="button-container">
-									<button>
-										<span>Enviar</span>
-									</button>
-								</div>
-
-							</form>
 						</div>
-
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -245,8 +279,6 @@
 						<li>
 							<a href="carrera-de-administracion-y-contabilidad+12589">Contabilidad</a>
 						</li>
-
-
 						<li>
 							<a href="carrera-de-administracion-de-negocios-bancarios-y-financieros+12543">Gestión de recursos humanos</a>
 						</li>
@@ -324,16 +356,13 @@
 							<span class="fa fa-whatsapp"></span>990 423 337</a>
 					</div>
 					<hr class="line-m">
-
 					<ul class="list-social-media">
 						<li>
 							<a class="fa fa-facebook" href="https://www.facebook.com/IPAE-126399393781/" target="_blank"></a>
 						</li>
-
 						<li>
 							<a class="fa fa-instagram" href="https://www.instagram.com/zegelipae/" target="_blank"></a>
 						</li>
-
 						<li>
 							<a class="fa fa-youtube" href="https://www.youtube.com/user/IpaePeru/" target="_blank"></a>
 						</li>

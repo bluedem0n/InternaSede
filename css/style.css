@@ -1,4 +1,6 @@
-*, :after, :before {
+*,
+:after,
+:before {
 	box-sizing: border-box;
 }
 
@@ -24,13 +26,24 @@ a {
 	outline: none;
 }
 
-p, h1, h2, h3, h4, h5, h6, body {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
 	font-family: 'Helvetica-Neue', 'Helvetica', Arial, sans-serif;
 }
-
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
 .ipae {
 	color: #E51838;
 }
@@ -92,9 +105,9 @@ p, h1, h2, h3, h4, h5, h6, body {
 }
 
 .contenedorMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo {
@@ -131,8 +144,15 @@ p, h1, h2, h3, h4, h5, h6, body {
 
 .bgLimaSur {
 	background: url('../img/bgLimaSur.png') center no-repeat;
-	background-size: cover;
-	min-height: 550px;
+}
+.bgSjl {
+	background: url('../img/bgSanJuan.png') center no-repeat;
+}
+.bgLimaCentro {
+	background: url('../img/bgLimaCentro.jpg') center no-repeat;
+}
+.bgPuruchuco {
+	background: url('../img/bgPuruchuco.jpg') center no-repeat;
 }
 
 .caption-dudas-responsive {
@@ -280,7 +300,9 @@ p, h1, h2, h3, h4, h5, h6, body {
 	letter-spacing: 0.5px;
 }
 
-.titleCarreras, .titleCarrerasGT, .titleEducacionEjecutiva {
+.titleCarreras,
+.titleCarrerasGT,
+.titleEducacionEjecutiva {
 	display: flex;
 	align-items: center;
 	margin-bottom: 25px;
@@ -289,12 +311,15 @@ p, h1, h2, h3, h4, h5, h6, body {
 .productoCarreras {
 	height: 450px;
 }
-.carrerasEmpty{
+
+.carrerasEmpty {
 	height: 210px !important;
 }
-.carrerasMedium{
+
+.carrerasMedium {
 	height: 320px !important;
 }
+
 .productoCGT {
 	height: 250px;
 }
@@ -416,7 +441,9 @@ p, h1, h2, h3, h4, h5, h6, body {
 .checkbox {
 	margin: 0 60px 30px;
 }
-
+.terms a{
+	text-decoration: underline !important;
+}
 .checkbox .terms {
 	font-size: 12px;
 	font-family: "HelveticaNeueLt";
@@ -455,13 +482,28 @@ p, h1, h2, h3, h4, h5, h6, body {
 	font-weight: 400;
 }
 
+.card .input-container select {
+	outline: none;
+	z-index: 1;
+	position: relative;
+	background: none;
+	width: 100%;
+	height: 38px;
+	border: 0;
+	border-bottom: 1px solid #757575;
+	color: #757575;
+	font-size: 15px;
+	font-weight: 400;
+}
+
 .card .input-container input:focus ~ label {
 	color: #9d9d9d;
 	-webkit-transform: translate(-12%, -50%) scale(0.75);
 	transform: translate(-12%, -50%) scale(0.75);
 }
 
-.card .input-container input:focus ~ .bar:before, .card .input-container input:focus ~ .bar:after {
+.card .input-container input:focus ~ .bar:before,
+.card .input-container input:focus ~ .bar:after {
 	width: 50%;
 }
 
@@ -491,7 +533,8 @@ p, h1, h2, h3, h4, h5, h6, body {
 	height: 1px;
 }
 
-.card .input-container .bar:before, .card .input-container .bar:after {
+.card .input-container .bar:before,
+.card .input-container .bar:after {
 	content: '';
 	position: absolute;
 	background: #E51838;
@@ -553,19 +596,25 @@ p, h1, h2, h3, h4, h5, h6, body {
 	transition: .3s ease;
 }
 
-.card .button-container button:hover, .card .button-container button:active, .card .button-container button:focus {
+.card .button-container button:hover,
+.card .button-container button:active,
+.card .button-container button:focus {
 	border-color: #E51838;
 }
 
-.card .button-container button:hover span, .card .button-container button:active span, .card .button-container button:focus span {
+.card .button-container button:hover span,
+.card .button-container button:active span,
+.card .button-container button:focus span {
 	color: #E51838;
 }
 
-.card .button-container button:active span, .card .button-container button:focus span {
+.card .button-container button:active span,
+.card .button-container button:focus span {
 	color: #ffffff;
 }
 
-.card .button-container button:active:before, .card .button-container button:focus:before {
+.card .button-container button:active:before,
+.card .button-container button:focus:before {
 	opacity: 1;
 	-webkit-transform: scale(10);
 	transform: scale(10);
@@ -614,7 +663,8 @@ p, h1, h2, h3, h4, h5, h6, body {
 	color: #ffffff;
 }
 
-.card.alt .input-container input:focus ~ .bar:before, .card.alt .input-container input:focus ~ .bar:after {
+.card.alt .input-container input:focus ~ .bar:before,
+.card.alt .input-container input:focus ~ .bar:after {
 	background: #ffffff;
 }
 
